@@ -1,16 +1,17 @@
-const functionalLanguage = {
-    paradigm: "Functional"
-};
-const scheme = {
-    name: "Scheme",
-    year: 1975,
-    __proto__: functionalLanguage
-};
-const javascript = {
-    name: "JavaScript",
-    year: 1995,
-    __proto__: functionalLanguage
-};
-console.log(functionalLanguage);
-console.log(scheme.paradigm);
-console.log(javascript.paradigm);
+const nomeDaPropriedade = {
+    nome: "Meu nome"
+}
+
+const java = {
+    name: "Javao",
+    idade: 23,
+    __proto__: nomeDaPropriedade
+}
+
+const python = {
+    name: "Pythonzao",
+    idade: 33,
+    __proto__: nomeDaPropriedade
+}
+
+console.log(nomeDaPropriedade);
